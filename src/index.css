@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-teal: #00373e;
+  --color-celeste: #aeeee6;
+  --color-olive: #94954c;
+  --color-peach-light: #fbd3b6;
+  --color-cream: #f5f2ee;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #f5f2ee;
+  color: #00373e;
+  margin: 0;
+}
+
+.font-display {
+  font-family: "Fraunces", serif;
+}
